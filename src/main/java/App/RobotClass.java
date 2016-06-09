@@ -46,19 +46,3 @@ public class RobotClass {
     
     
 }
-
-class GenericClass<T> {
-
-    T t;
-    public GenericClass(T t){
-        this.t = t;
-    }
-    
-    public T get(){
-        return this.t;
-    }
-    
-}
-
-
-class Animal{}
